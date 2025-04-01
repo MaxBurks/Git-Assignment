@@ -1,16 +1,39 @@
 #Function 1
-# Returns Area of Rectangle
+#Returns Area of square
+
+#Written by Max
+def rect_area(side):
+    '''
+
+    This function calculates the area of a rectangle
+    
+    Parameters
+    ----------
+    int: length
+    int: width
+    
+    Return
+    ------
+    length*width
+    
+    '''
+    return(side**2)
 
 #Function 2
-# Returns Surface Area of Rectangular Solid
+#Returns Surface Area of Cubic Prism
+'''
+#######################
+Osvaldo's Function here
+#######################
+'''
 
-# Request the dimension of a solid rectangular object
 
-length = int(input("Enter the length of the the object as a integer: "))
-width = int(input("Enter the width of the the object as a integer: "))
-height = int(input("Enter the height of the the object as a integer: "))
+#Request the dimensions of a solid square object
+side = int(input("Enter the length of the side of the cube as a integer: "))
 
-print("Length = ", length, "Width = ", width, "Height = ", height)
-print("Total Surface Area = ", str(rect_surface_area(length, width, height)))
-print("Area of the rectangle: " + str(rect_area(length, width)))
+square = rect_area(side)  
+print("Side =", side)
+print("Total Surface Area = ", str(rect_surface_area(square)))
+print("Area of the square: ", str(rect_area(side)))
+
 
