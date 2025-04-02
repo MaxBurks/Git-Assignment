@@ -1,6 +1,6 @@
 #Function 2
 #Returns Surface Area of Rectangular Solid
-#written by Osvaldo Contreras
+#written by Osvaldo Contreras-Guzman
 def rect_surface_area():
     """
     Calculates the surface area of a cube by multiplying square by 6
