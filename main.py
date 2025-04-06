@@ -21,11 +21,16 @@ def rect_area(side):
 
 #Function 2
 #Returns Surface Area of Cubic Prism
-'''
-#######################
-Osvaldo's Function here
-#######################
-'''
+#written by Osvaldo Contreras-Guzman
+def rect_surface_area():
+    """
+    Calculates the surface area of a cube by multiplying square by 6
+
+    Returns
+    -------
+    int : surface area of cube
+    """
+    return square * 6
 
 
 #Request the dimensions of a solid square object
